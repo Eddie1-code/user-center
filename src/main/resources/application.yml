@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
+
+spring:
+  application:
+    name: user-center
+    #数据库配置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url:  jdbc:mysql://localhost:3307/universe
+    username: root
+    password: root
+
